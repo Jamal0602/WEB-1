@@ -3,24 +3,21 @@ body{
  background-attachment: fixed;
  background-repeat: no-repeat;
  background-size: 100%;
- height: 10000px;
- overflow: hidden;
+ height: 100px;
+ overflow: ;
 }
 .div-nav{
     padding: 8px;
-    background-color:rgba(255,255,255.0.5);
-    backdrop-filter: blur(30px);
-    height: 24px;
+    background-color:burlywood;
+    height: 28px;
     color: black;
     width: 99%;
     text-align: start;
     border-radius: 10px;
     cursor:default;
     display: flex;
-}
-.nav{
-    
-    display: inline;
+    position: fixed;
+    margin-top: -55px ;
 }
 .S1{
     padding: 10px;
@@ -52,7 +49,11 @@ body{
     padding: 400px;
     display: inline;
 }
-.B1:hover{
+.B1, .B2{
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.B1:hover, .B2:hover{
     color: blue;
     border-color: blue;
     border-style: solid;
@@ -62,20 +63,66 @@ body{
     text-align: center;
     transition: 0.5s;
 
-}
-.B2:hover{
-    color: blue;
-    border-color: blue;
-    border-style: solid;
-    cursor: pointer;
-    border-radius: 9px;
-    padding: 5px;
-    text-align: center;
-    transition: 0.5s;
 }
 .main{
-    height: 100px;
-    width: 99%;
-    color: aqua;
+    height: 1000px;
+    width: 73%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+    margin: 9px;
+    border-radius: 10px;
+    margin-top: 65px;
+}
+.menu{
+    height: 1000px;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    margin-top: -36px;
+    margin-left: 101% ;
+}
+BUTTON{
+    border-radius: 50PX;
+    padding: 2px;
+    padding-left: 2px;
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: gray;
+    position: fixed;
+    margin-left: 94% ;
+}
+.down{
+    margin-top: 38%;
+}
+.up:hover, .down:hover{
+    border-radius: 50PX;
+    padding: 2px;
+    padding-left: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: gray;
+}
 
+.footer-bor{
+    height: 300px;
+    width: 99%;
+    background-color: rgba(104, 101, 101, 0.5);
+    backdrop-filter: blur(30px);
+    margin: 9px;
+    border-radius: 10px;
+}
+.footer{
+    height: 285px;
+    width: 98.8%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+    margin: 9px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: -10px;
 }
